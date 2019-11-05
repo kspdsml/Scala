@@ -11,11 +11,18 @@ class projectDemo3Server {
 
   val server: SocketIOServer = new SocketIOServer(config)
   server.addConnectListener(new ConnectListener(this))
+  server.addDisconnectListener(new DisconnectListener(this))
 
 }
 
 class ConnectListener(server: projectDemo3Server) extends ConnectListener {
   override def onConnect(socket: SocketIOClient): Unit = {
+
+  }
+}
+
+class DisconnectListener(server: projectDemo3Server) extends DisconnectListener {
+  override def onDisconnect(socket: SocketIOClient): Unit = {
 
   }
 }
