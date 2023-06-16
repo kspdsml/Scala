@@ -8,7 +8,7 @@ In this section, you will find the code for lecture questions. These questions a
 
 Here are a few examples of the lecture questions covered in this repository:
 
-- [Question 1](lectures/question1.scala): Description of the question and corresponding solution.
+- [Question 1](coding-challenges/challenge-1/solution1.scala): Description of the question and corresponding solution.
 - [Question 2](lectures/question2.scala): Description of the question and corresponding solution.
 - [Question 3](lectures/question3.scala): Description of the question and corresponding solution.
 
